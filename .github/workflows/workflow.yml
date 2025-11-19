@@ -9,7 +9,6 @@ on:
     types: [ published ]
 
 jobs:
-
   build-android:
     if: github.repository == 'wignn/volatile'
     runs-on: ubuntu-latest
@@ -62,10 +61,9 @@ jobs:
           path: build/app/outputs/bundle/release/volatile.aab
 
   release:
-    if: github.repository == 'wignn/volatile'
     needs: [build-android]
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    if: github.repository == 'wignn/volatile' && github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
 
     steps:
       - name: Checkout code
