@@ -122,12 +122,12 @@ class _SignupPageState extends State<RegisterPage> with TickerProviderStateMixin
                         listener: (context, state) {
                           if (state is SignupSuccess) {
                             Navigator.pushReplacementNamed(
-                                context, MyRoute.login.name);
+                                context, MyRoute.home.name);
                           } else if (state is SignupFailed) {
                             showDialog(
                               context: context,
                               builder: (context) => ErrorDialog(
-                                message: "Username already exists",
+                                message: state.errorMessage,
                               ),
                             );
                           }

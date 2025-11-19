@@ -93,7 +93,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
 
                       // Title
                       const Text(
-                        'Log into\nyour account',
+                        'Sign In',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 36,

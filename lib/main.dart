@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:vasvault/authWrapper.dart';
 import 'package:vasvault/bloc/login_bloc.dart';
 import 'package:vasvault/bloc/register_bloc.dart';
@@ -8,7 +7,6 @@ import 'package:vasvault/routes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: ".env");
 
   runApp(const MainApp());
 }
