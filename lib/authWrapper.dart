@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:volatile/routes.dart';
-import 'package:volatile/services/api.dart';
-import 'package:volatile/utils/jwt_decoder.dart';
-import 'package:volatile/utils/session_meneger.dart';
+import 'package:vasvault/routes.dart';
+import 'package:vasvault/services/api.dart';
+import 'package:vasvault/utils/jwt_decoder.dart';
+import 'package:vasvault/utils/session_meneger.dart';
 
 class AuthWrapper extends StatefulWidget {
   const AuthWrapper({super.key});

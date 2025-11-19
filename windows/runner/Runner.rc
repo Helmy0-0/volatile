@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "volatile" "\0"
+            VALUE "CompanyName", "com.wign" "\0"
+            VALUE "FileDescription", "vasvault" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "volatile" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "volatile.exe" "\0"
-            VALUE "ProductName", "volatile" "\0"
+            VALUE "InternalName", "vasvault" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.wign. All rights reserved." "\0"
+            VALUE "OriginalFilename", "vasvault.exe" "\0"
+            VALUE "ProductName", "vasvault" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

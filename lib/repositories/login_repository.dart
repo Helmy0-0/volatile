@@ -1,8 +1,8 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:dio/dio.dart';
-import 'package:volatile/models/Login_request.dart';
-import 'package:volatile/models/auth_Response.dart';
-import 'package:volatile/services/api.dart';
+import 'package:vasvault/models/Login_request.dart';
+import 'package:vasvault/models/auth_Response.dart';
+import 'package:vasvault/services/api.dart';
 
 class LoginRepository {
   final apiService = ApiService();

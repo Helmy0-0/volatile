@@ -1,8 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:volatile/page/Home.dart';
-import 'package:volatile/page/Profile.dart';
+import 'package:vasvault/page/Home.dart';
+import 'package:vasvault/page/Profile.dart';
 
 class NavigationMenu extends StatefulWidget {
   const NavigationMenu({super.key});

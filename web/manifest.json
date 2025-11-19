@@ -1,6 +1,6 @@
 {
-    "name": "volatile",
-    "short_name": "volatile",
+    "name": "vasvault",
+    "short_name": "vasvault",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

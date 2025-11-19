@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:volatile/authWrapper.dart';
-import 'package:volatile/bloc/login_bloc.dart';
-import 'package:volatile/bloc/register_bloc.dart';
-import 'package:volatile/routes.dart';
+import 'package:vasvault/authWrapper.dart';
+import 'package:vasvault/bloc/login_bloc.dart';
+import 'package:vasvault/bloc/register_bloc.dart';
+import 'package:vasvault/routes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

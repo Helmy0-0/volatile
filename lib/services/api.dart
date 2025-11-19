@@ -1,9 +1,9 @@
 import 'package:dio/dio.dart';
-import 'package:volatile/constants/app_constant.dart';
-import 'package:volatile/models/Login_request.dart';
-import 'package:volatile/models/auth_Response.dart';
-import 'package:volatile/models/register_request.dart';
-import 'package:volatile/utils/session_meneger.dart';
+import 'package:vasvault/constants/app_constant.dart';
+import 'package:vasvault/models/Login_request.dart';
+import 'package:vasvault/models/auth_Response.dart';
+import 'package:vasvault/models/register_request.dart';
+import 'package:vasvault/utils/session_meneger.dart';
 
 
 class ApiService {

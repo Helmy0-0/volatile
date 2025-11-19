@@ -1,5 +1,5 @@
 import 'package:jwt_decoder/jwt_decoder.dart';
-import 'package:volatile/constants/app_constant.dart';
+import 'package:vasvault/constants/app_constant.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SessionManager {

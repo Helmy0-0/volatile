@@ -1,7 +1,6 @@
-// filepath: c:\Users\tigfi\Desktop\volatile\lib\page\Profile.dart
 import 'package:flutter/material.dart';
-import 'package:volatile/utils/session_meneger.dart';
-import 'package:volatile/routes.dart';
+import 'package:vasvault/utils/session_meneger.dart';
+import 'package:vasvault/routes.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});

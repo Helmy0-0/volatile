@@ -1,8 +1,8 @@
 import 'package:fpdart/fpdart.dart';
 import 'package:dio/dio.dart';
-import 'package:volatile/models/auth_Response.dart';
-import 'package:volatile/models/register_request.dart';
-import 'package:volatile/services/api.dart';
+import 'package:vasvault/models/auth_Response.dart';
+import 'package:vasvault/models/register_request.dart';
+import 'package:vasvault/services/api.dart';
 
 class SignupRepository {
   final apiService = ApiService();

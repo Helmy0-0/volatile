@@ -1,4 +1,4 @@
-package com.example.volatile
+package com.wign.vasvault
 
 import io.flutter.embedding.android.FlutterActivity
 

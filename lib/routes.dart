@@ -1,6 +1,6 @@
-import 'package:volatile/page/Login.dart';
-import 'package:volatile/widgets/navigation_menu.dart';
-import 'package:volatile/page/Profile.dart';
+import 'package:vasvault/page/Login.dart';
+import 'package:vasvault/widgets/navigation_menu.dart';
+import 'package:vasvault/page/Profile.dart';
 
 enum MyRoute {
   login('/login'),

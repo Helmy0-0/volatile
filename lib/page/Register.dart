@@ -1,11 +1,11 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:volatile/models/register_request.dart';
-import 'package:volatile/page/Login.dart';
-import 'package:volatile/routes.dart';
-import 'package:volatile/widgets/error_dialog.dart';
+import 'package:vasvault/models/register_request.dart';
+import 'package:vasvault/page/Login.dart';
+import 'package:vasvault/routes.dart';
+import 'package:vasvault/widgets/error_dialog.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:volatile/bloc/register_bloc.dart';
+import 'package:vasvault/bloc/register_bloc.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});
