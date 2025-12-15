@@ -39,7 +39,10 @@ dependencies:
   jwt_decoder: ^2.0.1
   dio: ^5.9.0
   shared_preferences: ^2.5.3
-  fpdart: ^1.2.0
+  fpdart: ^1.2.0 
+  go_router: ^14.0.0
+  intl: ^0.20.1
+  file_picker: ^8.1.7
 
 
 dev_dependencies:
